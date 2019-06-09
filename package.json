@@ -1,0 +1,39 @@
+{
+  "name": "puppeteer-cep",
+  "version": "1.0.0",
+  "description": "Pesquisa um endereço de cep no correios",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "lint": "eslint '**/*.js' --fix",
+    "test": "NODE_ENV=test mocha --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugenio/puppeteer-cep.git"
+  },
+  "keywords": [
+    "puppeteer",
+    "correios",
+    "cep"
+  ],
+  "author": "Eugenio Cunha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ugenio/puppeteer-cep/issues"
+  },
+  "homepage": "https://github.com/ugenio/puppeteer-cep#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "dotenv": "^6.2.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "puppeteer": "^1.17.0"
+  }
+}

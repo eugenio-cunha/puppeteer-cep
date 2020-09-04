@@ -2,10 +2,12 @@
 API de consulta ao CEP dos correios via Puppeteer
 
 ## Variáveis de ambiente
+CRiar um arquivo .env com as seguintes variáveis de ambiente
 ``` env
 HEADLESS=true
 HTTP_PORT=3000
 NODE_ENV=development
+EXECUTABLE_PATH=/usr/bin/google-chrome
 ```
 
 ## Output
